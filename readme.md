@@ -1,5 +1,5 @@
 ﻿
-# API PHP
+# PDO PHP to DATABASE
 
 API PHP con Conexión a MySQL y Funcionalidad CRUD
 
@@ -16,29 +16,6 @@ Asegúrate de tener los siguientes requisitos antes de ejecutar la API:
 - PHP
 - MySQL 
 - Composer
-
-## Instalación
-
-1. Clona este repositorio en tu máquina local o descárgalo como archivo ZIP.
-			`git clone <https://github.com/emilynievesb/API-PHP>`
-
-2. Accede al directorio del proyecto.
-			`cd nombre-del-proyecto`
-
-3. Instala las dependencias utilizando Composer.
-			`composer install`
-
-4. Configuración de la base de datos.
-
-   - Crea una base de datos MySQL en tu servidor.
-   - Importa el archivo SQL proporcionado en la carpeta `database/`.
-
-5. Configuración de la conexión a la base de datos.
-
-   - Abre el archivo `config/database.php`.
-   - Modifica los valores de configuración para que coincidan con tu entorno de base de datos.
-   
-6. ¡La API está lista para ser utilizada! Puedes enviar peticiones a `http://localhost:8000` utilizando las rutas y métodos disponibles.
 
 ## Uso
 
